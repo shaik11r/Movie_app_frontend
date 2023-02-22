@@ -1,0 +1,44 @@
+
+.search-form{
+  width: 90vw;
+  margin:0 auto;
+  margin-bottom: 5rem;
+  margin-top:3rem;
+}
+.form-input{
+  width: 100%;
+  border:2px solid black;
+  max-width: 600px;
+  background:white;
+  padding: 1rem;
+  color:aqua;
+  letter-spacing: 0.25rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  margin-bottom: 10px;
+}
+.movies{
+  width:90%;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem;
+  margin:0 auto;
+  padding: auto;
+}
+.movie{
+  border: 2px solid purple;
+}
+.movie-info{
+  max-width: 250px;
+}
+.button-v{
+  border-radius: 10px;
+  padding: 10px;
+  position:relative;
+};
+.single-movie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
